@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Burger King</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo of bg.jpg" alt="Burger King Logo">
+            </div>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>Welcome to Burger King</h1>
+        <p>Home of the Whopper. Taste is king!</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <!-- Sample menu items -->
+        <div class="menu-item">
+            <img src="images/Whooper burger.jpg" alt="Burger 1">
+            <h2>Whopper</h2>
+            <p>Flame-grilled beef, tomatoes, lettuce, mayo, ketchup, and pickles.</p>
+            <span class="price">Rs.350</span>
+        </div>
+        <div class="menu-item">
+            <img src="images/chicken royale.jpg" alt="Burger 2">
+            <h2>Chicken Royale</h2>
+            <p>Crispy chicken patty, lettuce, and mayonnaise.</p>
+            <span class="price">Rs.320</span>
+        </div>
+        <div class="menu-item">
+            <img src="images/rcandcg.jpg" alt="Burger 2">
+            <h2>Roast Chicken & Creamy Garlic Mushroom Burger</h2>
+            <p>Brioche burger rolls,olive oil,medium mushroom,rashers of steaky bacon.</p>
+            <span class="price">Rs.570</span>
+        </div>
+        <div class="menu-item">
+            <img src="images/Chicken Schnitzel.jpg" alt="Burger 2">
+            <h2>Chicken Schnitzel</h2>
+            <p>Crispy chicken breast,slice cheese & canadian peameal bacon ,lettuce</p>
+            <span class="price">Rs.470</span>
+        </div>
+    </section>
+
+    <section id="locations" class="locations">
+        <h2>Find a Burger King Near You</h2>
+        <div id="map"></div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Burger King. All rights reserved.</p>
+    </footer>
+
+    
+    <!-- <script src="https://maps.googleapis.com/maps//api/js?key=AIzaSyApT5szfahJnypNir8b16VL8Av5xa41VEE&callback=initMap" async defer></script> -->
+<script src="AIzaSyApT5szfahJnypNir8b16VL8Av5xa41VEE"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
+
